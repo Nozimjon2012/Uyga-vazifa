@@ -219,3 +219,4 @@ function totalValue(list) {
   return list.reduce((sum, p) => sum + p.price * p.stock, 0);
 }
 console.log(totalValue(products));
+// test
